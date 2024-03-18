@@ -18,8 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
+```
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print('Swapped values are: {} {}'.format(a,b))
+```
+## Output:
+![image](https://github.com/Vinishofficial/Swapping-two-values/assets/146931793/a367836f-50b3-4aa0-a5c1-915aeebd72ae)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
